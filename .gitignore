@@ -1,0 +1,33 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.local
+
+# Dependências, builds e relatórios gerados
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Arquivos temporários e do editor
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.codex/
+.agents/
