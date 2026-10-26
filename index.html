@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700;800&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home.css?v=jotadev-2026">
     <link rel="stylesheet" href="./css/game.css">
     <link rel="stylesheet" href="./css/stages.css">
-    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main.js?v=jotadev-2026"></script>
   </head>
   <body>
     <main class="app-shell">
@@ -33,7 +33,6 @@
             <p class="home-menu__prompt">Parece fácil, né?</p>
             <button class="menu-button menu-button--primary" id="play-button" type="button">JOGAR <span aria-hidden="true">↗</span></button>
             <button class="menu-button menu-button--secondary" id="rules-button" type="button">COMO FUNCIONA</button>
-            <button class="menu-button menu-button--secondary" id="credits-button" type="button">CRÉDITOS</button>
           </nav>
 
           <!-- Fino: ilustração oficial à direita do menu. -->
@@ -44,6 +43,10 @@
 
         <footer class="home-footer">
           <p class="record">MELHOR FASE <strong id="record-value">00</strong></p>
+          <div class="home-footer__signature">
+            <span>Criado por <strong>JotaDev</strong></span>
+            <small>© 2026 JotaDev</small>
+          </div>
           <button class="sound-button" id="sound-button" type="button" aria-pressed="true" aria-label="Desativar som">SOM <span id="sound-status">LIGADO</span><span class="sound-button__dot" aria-hidden="true"></span></button>
         </footer>
       </section>

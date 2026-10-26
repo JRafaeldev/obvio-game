@@ -97,11 +97,6 @@ document.querySelector('#rules-button').addEventListener('click', () => openModa
   'Nem tudo é o que parece.',
   'Pense antes de clicar.'
 ]));
-document.querySelector('#credits-button').addEventListener('click', () => openModal('Créditos', [
-  'ÓBVIO?',
-  'Pisco: mascote principal, debochada, carismática e inteligente.',
-  'Fino: mascote coadjuvante, elegante, sarcástico e sofisticado.'
-]));
 modalClose.addEventListener('click', closeModal);
 backdrop.addEventListener('click', event => { if (event.target === backdrop) closeModal(); });
 document.addEventListener('keydown', event => {
